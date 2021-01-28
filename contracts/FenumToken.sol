@@ -49,8 +49,8 @@ contract FenumToken is IERC20 {
   constructor () public {
     _name = "Fenum Token";
     _symbol = "FNM";
-    _decimals = 2;
-    _cap = 3_250_000_00;
+    _decimals = 18;
+    _cap = 3_250_000_000000000000000000;
     _mint(_msgSender(), _cap);
   }
 
